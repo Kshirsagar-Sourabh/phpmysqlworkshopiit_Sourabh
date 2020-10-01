@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form action = '6.2.php' method='GET' >
+        <form action = '6.2.php' method='POST' >
             <label for="name">Name of Student*:</label><br>
             <input type="text" name="name"><br><br>
             
@@ -27,13 +27,13 @@
 </html>
 <?php
     
-    if(isset($_GET['name'])&& isset($_GET['s1']) && isset($_GET['s2']) && isset($_GET['s3']) && isset($_GET['s4'])&& isset($_GET['s5']) ){
-    $name=$_GET['name'];
-    $s1 = $_GET['s1'];
-    $s2 = $_GET['s2'];
-    $s3 = $_GET['s3'];
-    $s4 = $_GET['s4'];
-    $s5 = $_GET['s5'];
+    if(isset($_POST['name'])&& isset($_POST['s1']) && isset($_POST['s2']) && isset($_POST['s3']) && isset($_POST['s4'])&& isset($_POST['s5']) ){
+    $name=$_POST['name'];
+    $s1 = $_POST['s1'];
+    $s2 = $_POST['s2'];
+    $s3 = $_POST['s3'];
+    $s4 = $_POST['s4'];
+    $s5 = $_POST['s5'];
     echo"<b>Name of Student*:</b> $name<br><br>
     <b>Marks in Each Subject</b><br><br>
     <b>Subject 1*:</b> $s1/100<br><br>
