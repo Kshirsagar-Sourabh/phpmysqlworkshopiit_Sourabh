@@ -61,7 +61,7 @@
     <b>Subject 4*:</b>".$row['sub4']."/100<br><br>
     <b>Subject 5*:</b>".$row['sub5']."/100<br><br>
     <b>Total Marks Obtained:".$row['total obtained']."</b><br><br>
-    <b>Total Marks : </b>".$row['total marks']."/500<br><br>
+    <b>Total Marks : </b>".$row['total marks']."<br><br>
     <b>Percentage : </b>".$row['percentage']."<br><br><br>";
     }
 
