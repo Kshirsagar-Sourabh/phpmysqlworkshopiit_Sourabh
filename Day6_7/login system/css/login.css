@@ -1,0 +1,31 @@
+/* #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 1100px;
+    justify-content: center;
+    align-items: center;
+}
+#home p{
+    color: white;
+    font-size: 1.5rem;
+    font: bold;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("../img/doc.png");
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    background-repeat: no-repeat;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 788px;
+} */
